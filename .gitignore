@@ -1,0 +1,11 @@
+.env
+.env.*
+*.db
+*.sqlite*
+*.log
+*.csv
+*.xlsx
+*.zip
+__pycache__/
+staticfiles/
+media/
