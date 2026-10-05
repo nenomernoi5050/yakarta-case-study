@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /leads/
+Disallow: /admin/
+Disallow: /api/
+
+User-agent: Yandex
+Allow: /
+Crawl-delay: 2
+
+Sitemap: https://yakarta.pro/sitemap.xml

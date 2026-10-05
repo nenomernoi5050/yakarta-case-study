@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://yakarta.pro/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://yakarta.pro/"/>
+    <image:image>
+      <image:loc>https://yakarta.pro/static/assets/og-image.jpg</image:loc>
+      <image:title>Yakarta.pro — разработка и техническая поддержка сайтов</image:title>
+    </image:image>
+  </url>
+  <url><loc>https://yakarta.pro/services/support/</loc><lastmod>2026-08-24</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://yakarta.pro/services/dorabotka/</loc><lastmod>2026-08-24</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://yakarta.pro/services/speed/</loc><lastmod>2026-08-24</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://yakarta.pro/services/creation/</loc><lastmod>2026-08-24</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://yakarta.pro/services/integracii/</loc><lastmod>2026-08-24</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://yakarta.pro/services/yandex-maps/</loc><lastmod>2026-08-24</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://yakarta.pro/blog/</loc><lastmod>2026-08-24</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://yakarta.pro/cases/</loc><lastmod>2026-08-24</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://yakarta.pro/blog/yandex-maps-profile/</loc><lastmod>2026-08-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yakarta.pro/blog/reviews-reputation/</loc><lastmod>2026-08-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yakarta.pro/blog/local-seo-content/</loc><lastmod>2026-08-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yakarta.pro/blog/website-speed/</loc><lastmod>2026-08-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yakarta.pro/blog/analytics-leads/</loc><lastmod>2026-08-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yakarta.pro/blog/ai-market-research/</loc><lastmod>2026-08-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yakarta.pro/blog/ai-product-niches/</loc><lastmod>2026-08-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yakarta.pro/blog/ai-review-analysis/</loc><lastmod>2026-08-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yakarta.pro/blog/ai-multimedia-content/</loc><lastmod>2026-08-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yakarta.pro/solutions/</loc><lastmod>2026-08-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yakarta.pro/tools/</loc><lastmod>2026-08-24</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://yakarta.pro/about/</loc><lastmod>2026-08-24</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yakarta.pro/contacts/</loc><lastmod>2026-08-24</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yakarta.pro/privacy/</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
+</urlset>

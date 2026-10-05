@@ -1,0 +1,398 @@
+
+<!doctype html>
+<html lang="ru" data-theme="dark">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MCJQFCH2');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d10">
+  <meta name="color-scheme" content="dark light">
+
+  <title>База знаний и статьи о разработке, скорости и SEO — Yakarta.pro</title>
+  <meta name="description" content="Практические статьи, чек-листы и разборы Yakarta.pro: оптимизация Core Web Vitals, сквозная аналитика, продвижение на Яндекс.Картах и автоматизация процессов.">
+  <link rel="canonical" href="https://yakarta.pro/blog/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:site_name" content="Yakarta.pro">
+  <meta property="og:url" content="https://yakarta.pro/blog/">
+  <meta property="og:title" content="Yakarta.pro — разработка и поддержка сайтов">
+  <meta property="og:description" content="Создаём сайты и остаёмся рядом после запуска: поддержка, развитие, скорость, интеграции и SEO.">
+  <meta property="og:image" content="https://yakarta.pro/static/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon.png">
+  <link rel="icon" type="image/webp" href="/static/img/yakarta_logo_icon.webp">
+  <link rel="apple-touch-icon" href="/static/favicon.png">
+  <link rel="preload" href="/static/fonts/manrope-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/static/fonts/unbounded-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/static/styles.css?v=20260825.5">
+  <link rel="stylesheet" href="/static/shell.css?v=20260925.5">
+  <link rel="stylesheet" href="/static/css/test_design_v2.css?v=20260925.2">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["Organization", "ProfessionalService"],
+    "@id": "https://yakarta.pro/#organization",
+    "name": "Yakarta.pro",
+    "url": "https://yakarta.pro/",
+    "logo": "https://yakarta.pro/static/img/yakarta_logo_icon.webp",
+    "description": "Разработка, доработка и техническая поддержка сайтов для бизнеса.",
+    "telephone": "+7-919-738-91-21",
+    "email": "yakarta.pro@yandex.ru",
+    "areaServed": ["RU", "BY", "KZ"],
+    "sameAs": ["https://t.me/YaKartapro"]
+  }
+  </script>
+  
+
+  <!-- Yandex.Metrika -->
+  <script>
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();for(var j=0;j<document.scripts.length;j++){if(document.scripts[j].src===r){return;}}
+    k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window,document,'script','https://mc.yandex.ru/metrika/tag.js?id=109336259','ym');
+    ym(109336259,'init',{ssr:true,webvisor:true,clickmap:true,accurateTrackBounce:true,trackLinks:true});
+  </script>
+  
+</head>
+<body class="hub-page materials-page">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MCJQFCH2"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <noscript><div><img src="https://mc.yandex.ru/watch/109336259" class="metric-pixel" alt=""></div></noscript>
+  <a class="skip-link" href="#main-content">Перейти к содержанию</a>
+
+  
+<header class="site-header" data-cta-location="header">
+  <div class="container site-header__inner">
+    <a href="/#main-content" class="site-brand" aria-label="Yakarta.pro — к началу страницы">
+      <span class="site-brand__mark" aria-hidden="true">
+        <img src="/static/img/yakarta_logo_icon.webp" alt="Yakarta.pro" width="34" height="34" />
+      </span>
+      <span>Yakarta<span>.pro</span></span>
+    </a>
+
+    <nav class="site-nav" id="siteNav" aria-label="Основная навигация">
+      <a href="/#services">Услуги</a>
+      <a href="/#cases">Кейсы</a>
+      <a href="/#pricing">Стоимость</a>
+      <a href="/#blog">Статьи</a>
+      <a href="/#responsibility">Как работаем</a>
+      <a href="/#cta">Контакты</a>
+      <a class="site-nav__mobile-cta" href="/#cta">Обсудить задачу</a>
+    </nav>
+
+    <div class="site-header__actions">
+      <a class="site-header__contact" href="/#cta" aria-label="Перейти к контактам">
+        <span class="status-dot" aria-hidden="true"></span>На связи
+      </a>
+      <a href="/#cta" class="site-header__cta">Обсудить задачу <span aria-hidden="true">↗</span></a>
+      <button type="button" class="site-burger" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="siteNav">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+
+  <main id="main-content" tabindex="-1">
+    
+<section class="materials-hero" aria-labelledby="hub-title">
+  <div class="container materials-hero__grid">
+    <span class="materials-hero__eyebrow">База знаний Yakarta</span>
+    <h1 id="hub-title">Практика без<br><em>маркетингового тумана</em></h1>
+    <p>Чек-листы и разборы для тех, кто отвечает за сайт, заявки и рост продукта.</p>
+  </div>
+</section>
+
+<section class="materials-section" aria-labelledby="featured-title">
+  <div class="container">
+    <a href="/blog/website-speed/" class="materials-featured">
+      <span class="materials-featured__media"><img src="/static/img/blog/website-speed-cover.webp" alt="" width="1200" height="800" loading="eager" /></span>
+      <span class="materials-featured__body">
+        <span class="materials-featured__label">Начните отсюда</span>
+        <span class="materials-item__meta"><span class="materials-item__cat">Техническое SEO</span><span class="materials-item__time">6 минут</span></span>
+        <h2 class="materials-featured__title" id="featured-title">Скорость сайта и Core Web Vitals: что проверить в первую очередь</h2>
+        <span class="materials-featured__description">Что проверить в скорости сайта в первую очередь: мобильная загрузка, изображения, LCP, CLS и влияние Core Web Vitals на заявки.</span>
+        <span class="materials-item__more">Читать статью <span aria-hidden="true">→</span></span>
+      </span>
+    </a>
+
+    <nav class="materials-topics" aria-label="Темы базы знаний">
+      <span>Темы</span>
+      <a href="#sites">Сайты и аналитика</a>
+      <a href="#local">Локальное продвижение</a>
+      <a href="#ai">ИИ для бизнеса</a>
+    </nav>
+
+    <section class="materials-group" id="sites" aria-labelledby="sites-title">
+      <header class="materials-group__head">
+        <div><span>01 · Основа</span><h2 id="sites-title">Сайты и аналитика</h2></div>
+        <p>Как сделать сайт быстрее, понятнее и связать его работу с реальными обращениями.</p>
+      </header>
+      <div class="materials-grid materials-primary-grid">
+      
+      <a href="/blog/analytics-leads/" class="materials-item">
+        <span class="materials-item__media"><img src="/static/img/blog/analytics-leads-cover.webp" alt="" width="1200" height="800" loading="lazy" /></span>
+        <span class="materials-item__body">
+          <span class="materials-item__meta"><span class="materials-item__cat">Аналитика</span><span class="materials-item__time">8 минут</span></span>
+          <h2 class="materials-item__title">Как связать Яндекс Карты, сайт и заявки в одну систему аналитики</h2>
+          <span class="materials-item__description">Как связать Яндекс Карты, сайт и заявки: UTM-метки, цели, звонки и отчёт для локального бизнеса.</span>
+          <span class="materials-item__more">Читать статью <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      
+      <a href="/blog/local-seo-content/" class="materials-item">
+        <span class="materials-item__media"><img src="/static/img/blog/local-seo-content-cover.webp" alt="" width="1200" height="800" loading="lazy" /></span>
+        <span class="materials-item__body">
+          <span class="materials-item__meta"><span class="materials-item__cat">Контент</span><span class="materials-item__time">9 минут</span></span>
+          <h2 class="materials-item__title">Локальное SEO для бизнеса: какие страницы и тексты действительно работают</h2>
+          <span class="materials-item__description">Как собрать структуру локального SEO: страницы услуг, районы, FAQ, внутренняя перелинковка и полезные тексты без переспама.</span>
+          <span class="materials-item__more">Читать статью <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      
+      </div>
+    </section>
+
+    <section class="materials-group" id="local" aria-labelledby="local-title">
+      <header class="materials-group__head">
+        <div><span>02 · Видимость</span><h2 id="local-title">Локальное продвижение</h2></div>
+        <p>Практика для компаний, которым важно уверенно находиться на картах и в локальном поиске.</p>
+      </header>
+      <div class="materials-compact-grid">
+      
+        <a href="/blog/yandex-maps-profile/" class="materials-compact-card">
+          <span class="materials-compact-card__media"><img src="/static/assets/blog/yandex-maps-profile.webp" alt="" width="1200" height="800" loading="lazy" /></span>
+          <span class="materials-compact-card__body">
+            <span class="materials-item__meta"><span class="materials-item__cat">Яндекс Карты</span><span class="materials-item__time">8 минут</span></span>
+            <h3>Как оформить карточку на Яндекс Картах, чтобы получать больше заявок</h3>
+            <span class="materials-item__more">Читать <span aria-hidden="true">→</span></span>
+          </span>
+        </a>
+      
+        <a href="/blog/reviews-reputation/" class="materials-compact-card">
+          <span class="materials-compact-card__media"><img src="/static/assets/blog/reviews-reputation.webp" alt="" width="1200" height="800" loading="lazy" /></span>
+          <span class="materials-compact-card__body">
+            <span class="materials-item__meta"><span class="materials-item__cat">Репутация</span><span class="materials-item__time">7 минут</span></span>
+            <h3>Отзывы на Яндекс Картах: как отвечать и превращать их в продажи</h3>
+            <span class="materials-item__more">Читать <span aria-hidden="true">→</span></span>
+          </span>
+        </a>
+      
+      </div>
+    </section>
+  </div>
+</section>
+
+<section class="materials-ai" id="ai" aria-labelledby="ai-title">
+  <div class="container">
+    <header class="materials-ai__head">
+      <div><span>03 · Инструменты</span><h2 id="ai-title">ИИ для бизнеса</h2></div>
+      <p>Без магии и обещаний: сценарии, где нейросети действительно экономят время и помогают принимать решения.</p>
+    </header>
+    <div class="materials-ai-grid">
+      
+      <a href="/blog/ai-market-research/" class="materials-ai-card">
+        <span class="materials-ai-card__media"><img src="/static/assets/blog/ai-market-research.webp" alt="" width="1200" height="800" loading="lazy" /></span>
+        <span class="materials-ai-card__body">
+          <span class="materials-ai-card__meta"><span>ИИ и аналитика</span><span>10 минут</span></span>
+          <h3>Как использовать ИИ для анализа рынка товаров: рабочая схема без магии</h3>
+          <span class="materials-ai-card__more">Открыть материал <span aria-hidden="true">↗</span></span>
+        </span>
+      </a>
+      
+      <a href="/blog/ai-product-niches/" class="materials-ai-card">
+        <span class="materials-ai-card__media"><img src="/static/assets/blog/ai-product-niches.webp" alt="" width="1200" height="800" loading="lazy" /></span>
+        <span class="materials-ai-card__body">
+          <span class="materials-ai-card__meta"><span>ИИ и аналитика</span><span>9 минут</span></span>
+          <h3>Поиск товарной ниши с помощью ИИ: как не купить красивую иллюзию</h3>
+          <span class="materials-ai-card__more">Открыть материал <span aria-hidden="true">↗</span></span>
+        </span>
+      </a>
+      
+      <a href="/blog/ai-review-analysis/" class="materials-ai-card">
+        <span class="materials-ai-card__media"><img src="/static/assets/blog/ai-review-analysis.webp" alt="" width="1200" height="800" loading="lazy" /></span>
+        <span class="materials-ai-card__body">
+          <span class="materials-ai-card__meta"><span>ИИ и аналитика</span><span>8 минут</span></span>
+          <h3>Анализ отзывов с помощью ИИ: от «понравилось» до плана улучшений</h3>
+          <span class="materials-ai-card__more">Открыть материал <span aria-hidden="true">↗</span></span>
+        </span>
+      </a>
+      
+      <a href="/blog/ai-multimedia-content/" class="materials-ai-card">
+        <span class="materials-ai-card__media"><img src="/static/assets/blog/ai-multimedia-content.webp" alt="" width="1200" height="800" loading="lazy" /></span>
+        <span class="materials-ai-card__body">
+          <span class="materials-ai-card__meta"><span>ИИ и контент</span><span>9 минут</span></span>
+          <h3>ИИ для мультимедиа товаров: как ускорить контент и не потерять доверие</h3>
+          <span class="materials-ai-card__more">Открыть материал <span aria-hidden="true">↗</span></span>
+        </span>
+      </a>
+      
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  
+    
+<section class="section" id="cta">
+  <div class="container">
+    <div class="cta-card" data-reveal>
+      <div class="cta-grid">
+        <div class="cta-info">
+          <span class="section-tag">Свяжитесь с нами</span>
+          <h2 class="section-title">Нужна доработка, поддержка или аудит сайта?</h2>
+          <p class="section-subtitle" style="margin-bottom: 28px;">
+            Оставьте заявку или опишите задачу. Проведём первичную диагностику за 24 часа и предложим точные варианты решения.
+          </p>
+
+          <div style="display: flex; flex-direction: column; gap: 14px;">
+            <div style="display: flex; align-items: center; gap: 10px; font-size: 0.92rem;">
+              <svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+              <span>Полная конфиденциальность (NDA по запросу)</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 10px; font-size: 0.92rem;">
+              <svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              <span>Гарантия 30 дней на все выполненные работы</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 10px; font-size: 0.92rem;">
+              <svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              <span>Прямая связь в Telegram: <strong><a href="https://t.me/YaKartapro" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">@YaKartapro</a></strong></span>
+            </div>
+          </div>
+        </div>
+
+        <form id="leadForm" class="cta-form" action="/submit" method="POST" novalidate>
+          <input type="hidden" name="csrfmiddlewaretoken" value="K7N1idXYB5t4Ysvqf8vM3XWfITKuZY6i4jCeeFspLm69ExkKog1IWO0MreCJTx4o">
+          
+          <!-- Anti-Bot Invisible Honeypots -->
+          <div class="hp-trap" aria-hidden="true">
+            <input type="text" name="website_check" tabindex="-1" autocomplete="off" />
+            <input type="text" name="user_company" tabindex="-1" autocomplete="off" />
+            <input type="text" name="work_email" tabindex="-1" autocomplete="off" />
+          </div>
+
+          <!-- Anti-Bot Timing Token -->
+          <input type="hidden" name="form_render_ts" id="formRenderTs" value="" />
+          <input type="hidden" name="form_token" id="formToken" value="" />
+          <input type="hidden" name="source_page" value="/blog/" />
+          <input type="hidden" name="offer" value="Обсуждение проекта" />
+          <input type="hidden" name="cta_location" value="lead-form" />
+          <input type="hidden" name="utm_source" value="" />
+          <input type="hidden" name="utm_medium" value="" />
+          <input type="hidden" name="utm_campaign" value="" />
+
+          <div class="field">
+            <label class="field__label" for="lead-name">Ваше имя *</label>
+            <input id="lead-name" type="text" name="name" class="field__input" placeholder="Иван" autocomplete="name" required />
+          </div>
+
+          <div class="field">
+            <label class="field__label" for="lead-contact">Телефон или Telegram *</label>
+            <input id="lead-contact" type="text" name="phone" class="field__input" placeholder="+7 (999) 000-00-00 или @username" autocomplete="tel" required />
+          </div>
+
+          <div class="field">
+            <label class="field__label" for="lead-site">Ссылка на сайт (необязательно)</label>
+            <input id="lead-site" type="text" name="card" class="field__input" placeholder="site.ru или https://site.ru" autocomplete="url" inputmode="url" />
+          </div>
+
+          <div class="field">
+            <label class="field__label" for="lead-message">Описание задачи</label>
+            <textarea id="lead-message" name="message" class="field__input field__textarea" placeholder="Что нужно сделать или какую ошибку исправить?" rows="3"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--full btn--lg">Обсудить задачу</button>
+
+          <p class="form-server-status" data-form-status role="status" aria-live="polite" tabindex="-1" hidden></p>
+
+          <p style="font-size: 0.8rem; color: var(--text-faint); margin: 0; text-align: center;">
+            Нажимая кнопку, вы соглашаетесь с <a href="/privacy/" target="_blank" style="text-decoration: underline;">Политикой конфиденциальности</a>.
+          </p>
+        </form>
+
+        <div id="formSuccess" class="form-success" role="status" aria-live="polite" aria-atomic="true" tabindex="-1" hidden style="grid-column: span 2; text-align: center; padding: 40px;">
+          <div style="font-size: 2.5rem; margin-bottom: 12px; color: var(--success);">✓</div>
+          <h3>Заявка успешно отправлена!</h3>
+          <p>Спасибо! Мы уже получили ваше сообщение и свяжемся с вами в ближайшее время.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+
+  
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__top">
+      <div class="site-footer__intro">
+        <a href="/" class="site-brand site-brand--footer" aria-label="Yakarta.pro — на главную">
+          <span class="site-brand__mark" aria-hidden="true">
+            <img src="/static/img/yakarta_logo_icon.webp" alt="Yakarta.pro" width="34" height="34" />
+          </span>
+          <span>Yakarta<span>.pro</span></span>
+        </a>
+        <p class="site-footer__promise">Сайты, которые проще поддерживать и сложнее сломать.</p>
+        <p>Разрабатываем и сопровождаем цифровые продукты для бизнеса по всей России.</p>
+        <a class="site-footer__mail" href="mailto:yakarta.pro@yandex.ru">yakarta.pro@yandex.ru</a>
+      </div>
+
+      <div class="site-footer__nav">
+        <div>
+          <h2>Услуги</h2>
+          <a href="/services/support/">Поддержка сайтов</a>
+          <a href="/services/dorabotka/">Доработка и ремонт</a>
+          <a href="/services/speed/">Скорость и Core Web Vitals</a>
+          <a href="/services/creation/">Разработка под ключ</a>
+          <a href="/services/integracii/">CRM и интеграции</a>
+        </div>
+        <div>
+          <h2>Контакты</h2>
+          <a href="tel:+79197389121">+7 (919) 738-91-21</a>
+          <a href="https://t.me/YaKartapro" target="_blank" rel="noopener">Telegram · @YaKartapro</a>
+          <a href="https://wa.me/79034420408" target="_blank" rel="noopener">WhatsApp</a>
+          <span>Москва · работаем по РФ и СНГ</span>
+        </div>
+        <div>
+          <h2>Компания</h2>
+          <a href="/solutions/">Решения</a>
+          <a href="/cases/">Кейсы</a>
+          <a href="/blog/">Статьи и база знаний</a>
+          <a href="/about/">О компании</a>
+          <a href="/contacts/">Связаться с нами</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-footer__bottom">
+      <p>© <span id="year">2026</span> Yakarta.pro</p>
+      <p>Работаем по договору · NDA по запросу</p>
+      <a href="/privacy/">Политика конфиденциальности</a>
+    </div>
+  </div>
+</footer>
+
+
+  
+
+  <script src="/static/script.js?v=20260925.2"></script>
+  
+</body>
+</html>
