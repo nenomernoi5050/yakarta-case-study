@@ -6,6 +6,65 @@
 *.csv
 *.xlsx
 *.zip
+venv/
+.venv/
+env/
 __pycache__/
+*.py[cod]
+*$py.class
 staticfiles/
 media/
+leads.json
+leads.log
+leads.json.lock
+leads.json.tmp.*
+
+# Development sources and local release-builder inputs are not part of the
+# published Jino snapshot.
+/apps/
+/config/
+/templates/
+/current site/
+/generated_services/
+/design-old/
+/test-design/
+/manage.py
+/build_static_release.py
+/requirements.txt
+/articles_data.json
+
+# One-off local scripts; only the production Passenger handler is retained.
+/*.py
+!/passenger_wsgi.py
+
+# Local previews, audit artifacts, backups, and scratch output
+/release_preview_*/
+/audit_screenshots/
+/remote_backup_*.tar.gz
+/full_page.*
+/hero_maps_*.png
+/live_hero_bg_check.png
+/lead_form_verified.png
+/test_hero_card_check.png
+/01_hero.*
+/02_services.*
+/03_pricing.*
+/04_faq.*
+/05_lead_form.*
+/scratch_*.txt
+/test_redesign.html
+**/assets/backup/
+**/assets/zip/
+*.bak
+
+# Local notes and editor/OS files
+/home.md
+/homepage_markup.md
+/realise*.md
+/recv*.md
+/STEPS.md
+/test-task.md
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
