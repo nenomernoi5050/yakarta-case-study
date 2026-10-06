@@ -1,0 +1,172 @@
+/* Yakarta home backgrounds — Variant 26
+   Visual-only layer. No layout, content, JS, form, or component changes. */
+:root {
+  --bg-v26-light-overlay: rgba(250,249,245,.80);
+  --bg-v26-paper-overlay: rgba(242,240,234,.82);
+  --bg-v26-dark-overlay: rgba(11,13,16,.80);
+}
+
+/* Keep section content above the decorative background layer. */
+.home-redesign .v2-hero,
+.home-redesign #cases,
+.home-redesign #workflow,
+.home-redesign #services,
+.home-redesign #problems,
+.home-redesign #showcase,
+.home-redesign #responsibility,
+.home-redesign #pricing,
+.home-redesign #blog,
+.home-redesign #faq {
+  position: relative;
+  isolation: isolate;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-redesign .v2-hero > *,
+.home-redesign #cases > *,
+.home-redesign #workflow > *,
+.home-redesign #services > *,
+.home-redesign #problems > *,
+.home-redesign #showcase > *,
+.home-redesign #responsibility > *,
+.home-redesign #pricing > *,
+.home-redesign #blog > *,
+.home-redesign #faq > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* 01 — hero: workspace + dashboards. Main visual remains intact. */
+.home-redesign .v2-hero {
+  background-image:
+    linear-gradient(90deg, rgba(250,249,245,.98) 0%, rgba(250,249,245,.93) 43%, rgba(250,249,245,.60) 72%, rgba(250,249,245,.44) 100%),
+    url('/static/img/home-backgrounds-v26/01-hero-workspace.webp');
+  background-position: center, center right;
+}
+
+/* 02 — proof / analytics */
+.home-redesign #cases {
+  background-image:
+    linear-gradient(rgba(242,240,234,.88), rgba(242,240,234,.88)),
+    url('/static/img/home-backgrounds-v26/02-cases-analytics.webp');
+  background-position: center;
+}
+
+/* 03 — monitoring */
+.home-redesign #workflow {
+  background-image:
+    linear-gradient(90deg, rgba(11,13,16,.94), rgba(11,13,16,.75)),
+    url('/static/img/home-backgrounds-v26/03-support-monitoring.webp');
+  background-position: center right;
+}
+
+/* 04 — lifecycle / modules */
+.home-redesign #services {
+  background-image:
+    linear-gradient(rgba(250,249,245,.86), rgba(250,249,245,.86)),
+    url('/static/img/home-backgrounds-v26/04-services-modules.webp');
+  background-position: center;
+}
+
+/* 05 — urgent incident response */
+.home-redesign #problems {
+  background-image:
+    linear-gradient(90deg, rgba(11,13,16,.93) 0%, rgba(11,13,16,.80) 52%, rgba(11,13,16,.68) 100%),
+    url('/static/img/home-backgrounds-v26/05-problems-incident.webp');
+  background-position: center right;
+}
+
+/* 06 — prototype / UX */
+.home-redesign #showcase {
+  background-image:
+    linear-gradient(rgba(250,249,245,.88), rgba(250,249,245,.88)),
+    url('/static/img/home-backgrounds-v26/06-showcase-prototype.webp');
+  background-position: center;
+}
+
+/* 07 — technical team */
+.home-redesign #responsibility {
+  background-image:
+    linear-gradient(90deg, rgba(11,13,16,.94) 0%, rgba(11,13,16,.82) 55%, rgba(11,13,16,.70) 100%),
+    url('/static/img/home-backgrounds-v26/07-responsibility-team.webp');
+  background-position: center right;
+}
+
+/* 08 — packages / integrations */
+.home-redesign #pricing {
+  background-image:
+    linear-gradient(rgba(242,240,234,.90), rgba(242,240,234,.90)),
+    url('/static/img/home-backgrounds-v26/08-pricing-integrations.webp');
+  background-position: center;
+}
+
+/* 09 — knowledge base */
+.home-redesign #blog {
+  background-image:
+    linear-gradient(rgba(242,240,234,.88), rgba(242,240,234,.88)),
+    url('/static/img/home-backgrounds-v26/09-blog-workspace.webp');
+  background-position: center;
+}
+
+/* 10 — FAQ / support */
+.home-redesign #faq {
+  background-image:
+    linear-gradient(90deg, rgba(250,249,245,.96) 0%, rgba(250,249,245,.88) 55%, rgba(250,249,245,.73) 100%),
+    url('/static/img/home-backgrounds-v26/10-faq-support.webp');
+  background-position: center right;
+}
+
+@media (max-width: 900px) {
+  .home-redesign .v2-hero,
+  .home-redesign #cases,
+  .home-redesign #services,
+  .home-redesign #showcase,
+  .home-redesign #pricing,
+  .home-redesign #blog,
+  .home-redesign #faq {
+    background-position: center;
+  }
+
+  .home-redesign #workflow,
+  .home-redesign #problems,
+  .home-redesign #responsibility {
+    background-position: 65% center;
+  }
+
+  .home-redesign .v2-hero {
+    background-image:
+      linear-gradient(rgba(250,249,245,.94), rgba(250,249,245,.91)),
+      url('/static/img/home-backgrounds-v26/01-hero-workspace.webp');
+  }
+
+  .home-redesign #workflow,
+  .home-redesign #problems,
+  .home-redesign #responsibility {
+    background-image:
+      linear-gradient(rgba(11,13,16,.88), rgba(11,13,16,.88)),
+      var(--v26-mobile-bg, none);
+  }
+}
+
+/* Explicit mobile URLs: avoids image loss when overriding layered backgrounds. */
+@media (max-width: 900px) {
+  .home-redesign #workflow { --v26-mobile-bg: url('/static/img/home-backgrounds-v26/03-support-monitoring.webp'); }
+  .home-redesign #problems { --v26-mobile-bg: url('/static/img/home-backgrounds-v26/05-problems-incident.webp'); }
+  .home-redesign #responsibility { --v26-mobile-bg: url('/static/img/home-backgrounds-v26/07-responsibility-team.webp'); }
+}
+
+@media (prefers-reduced-data: reduce) {
+  .home-redesign .v2-hero,
+  .home-redesign #cases,
+  .home-redesign #workflow,
+  .home-redesign #services,
+  .home-redesign #problems,
+  .home-redesign #showcase,
+  .home-redesign #responsibility,
+  .home-redesign #pricing,
+  .home-redesign #blog,
+  .home-redesign #faq {
+    background-image: none !important;
+  }
+}
